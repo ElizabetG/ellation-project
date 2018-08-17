@@ -1,0 +1,80 @@
+.ellation-text-media {
+	display: none;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.text-footer {
+	font-family: MarkPro;
+	font-size: 14px;
+	font-weight: 500;
+	color: #b0aebb;
+	text-decoration: none;
+	transition: color 0.4s ease;
+}
+
+.text-footer-li {
+	display: inline;
+	margin: 0 10px;
+}
+
+.text-footer:hover {
+	color: white;
+}
+
+.socials {
+	display: flex;
+}
+
+.button-socials {
+	display: block;
+	margin-right: 15px;
+}
+
+.button-svg {
+	display: block;
+	width: 16px;
+	fill: #b0aebb;
+	transition: fill 0.4s ease;
+}
+
+.navbar-footer {
+	display: flex;
+	margin: 0 -10px;
+}
+
+.navbar-link {
+	text-decoration: none;
+}
+
+.ellation-text {
+	font-family: Rubik-Light;
+	font-size: 12.8px;
+	line-height: 1.41;
+	color: #b0aebb;
+}
+
+.list-footer {
+	padding: 0;
+}
+
+.youtube:hover {
+	fill: #ff0000;
+}
+
+.twitter:hover {
+	fill: #0084b4;
+}
+
+.facebook:hover {
+	fill: #3b5998;
+}
+
+.instagram:hover {
+	fill: #cd486b;
+}

@@ -1,0 +1,279 @@
+@media only screen and (max-width: 1024px) {
+	.text-footer-li {
+		margin: 0 5px;
+	}
+
+	.navbar-footer {
+		margin: 0 -5px;	
+	}
+
+	.text-roku {
+		left: 250px;
+	}
+
+	.text-androidtv {
+		left: 230px;
+	}
+
+	.text-switch {
+		left: 256px;
+		font-size: 17px;	
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.navbar-footer {
+		display: flex;
+		width: 800px;
+		justify-content: center;
+	}
+	
+	.footer-container {
+		flex-wrap: wrap;
+	}
+
+	.text-footer-li {
+		margin: 0 4px;
+	}
+
+	.navbar-footer {
+		margin: 0 -4px;	
+	}
+
+	.socials {
+		display: flex;
+		width: 800px;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+	}
+
+	.card-container {
+		margin: 0 -10px;
+	}
+
+	.card-button {
+		right: 25px;
+		bottom: 35px;
+		width: 127px;
+	}
+
+	.card-text {
+		font-size: 15px;
+		top: 25px;
+	}
+
+	.button-first-line {
+		width: 110px;
+	}
+
+	.text-ps {
+		left: 50px;
+	}
+
+	.text-xbox {
+		left: 75px;
+	}
+
+	.text-appletv {
+		left: 75px;
+	}
+
+	.text-roku {
+		left: 160px;
+	}
+
+	.text-firetv {
+		left: 155px;
+	}
+
+	.text-androidtv {
+		left: 150px;
+	}
+
+	.text-switch {
+		left: 170px;	
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.footer-container {
+		display: flex;
+	}
+
+	.text-footer-li {
+		display: block;
+		list-style: none;
+		margin: 10px 0;
+	}
+
+	.navbar-footer {
+		flex: 0 0 50%;
+	}
+	
+	.socials {
+		display: block;
+		flex: 0 0 50%;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+
+	.button-socials {
+		display: flex;
+		max-height: 41px;
+		justify-content: center;
+	}
+
+	.button-svg {
+		width: 18px;
+	}
+
+	.ellation-text {
+		display: none;
+	}
+	
+	.ellation-text-media {
+		display: flex;
+		width: 800px;
+		justify-content: center; 
+		font-family: Rubik-Light;
+		font-size: 12.8px;
+		line-height: 1.41;
+		color: #b0aebb;
+		margin-top: 40px;
+	}
+
+	.img-card {
+		min-width: 100%;
+		min-height: 100%;
+		object-fit: contain;
+		max-width: none;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.subtitle {
+		font-size: 14px;
+	}
+	
+	.hero-info {
+		padding-top: 70px;
+	}
+
+	.cards {
+		margin-top: 110px;
+	}
+
+	.card-A {
+		position: relative;
+		box-sizing: border-box;
+		flex: 0 0 100%;
+		padding: 10px;
+		margin: 0 auto;
+		padding: 15px 0;
+		max-width: 330px;
+		height: 330px;
+		overflow: hidden;
+	}
+
+	.card-B {
+		position: relative;
+		box-sizing: border-box;
+		flex: 0 0 100%;
+		padding: 10px;
+		margin: 0 auto;
+		padding: 15px 0;
+		max-width: 330px;
+		height: 330px;
+		overflow: hidden;
+	}
+
+	.card-button {
+		right: 20px;
+		bottom: 30px;
+		width: 160px;
+	}
+	
+	.text-ps {
+		left: 80px;
+		font-size: 18px;
+	}
+
+	.text-xbox {
+		left: 100px;
+		font-size: 18px;
+	}
+
+	.text-appletv {
+		left: 100px;
+		font-size: 18px;
+	}
+
+	.text-roku {
+		left: 210px;
+		font-size: 18px;
+	}
+
+	.text-firetv {
+		left: 205px;
+		font-size: 16px;
+	}
+
+	.text-androidtv {
+		left: 205px;
+		font-size: 16px;
+	}
+
+	.text-switch {
+		left: 245px;
+		font-size: 16px;	
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.card-A {
+		position: relative;
+		box-sizing: border-box;
+		flex: 0 0 100%;
+		padding: 15px;
+	}
+
+	.card-B {
+		position: relative;
+		box-sizing: border-box;
+		flex: 0 0 100%;
+		padding: 15px;
+	}
+
+	.card-button {
+		right: 20px;
+		bottom: 30px;
+		width: 160px;
+	}
+
+	.button-first-line {
+		width: 140px;
+	}
+
+	.card-text {
+		font-size: 18px;
+	}
+
+	.text-firetv {
+		left: 160px;
+		font-size: 16px;
+	}
+
+	.text-androidtv {
+		left: 160px;
+		font-size: 16px;
+	}
+
+	.text-switch {
+		left: 187px;
+		font-size: 16px;	
+	}
+}

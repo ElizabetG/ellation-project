@@ -1,0 +1,58 @@
+.cards {
+	margin-top: 200px;
+}
+
+.cards-title {
+	margin: 10px 0;
+	font-family: MarkPro;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.42;
+	color: #f9f9fa;
+}
+
+.cards-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.card-A {
+	position: relative;
+	box-sizing: border-box;
+	flex: 0 0 33.33%;
+	padding: 15px;
+}
+
+.card-B {
+	position: relative;
+	box-sizing: border-box;
+	flex: 0 0 50%;
+	padding: 15px;
+}
+
+.card-text {
+	position: absolute;
+	font-family: MarkPro-BoldItalic;
+	font-size: 18px;
+	top: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.card-button {
+	position: absolute;
+	display: block;
+	right: 35px;
+	bottom: 45px;
+}
+
+.img-button {
+	display: block;
+	width: 100%;
+}
+
+.img-card {
+	max-width: 100%;
+}
